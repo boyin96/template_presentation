@@ -1,0 +1,95 @@
+\documentclass[10pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage {mathtools}
+\usepackage{helvet}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+
+% set colors
+\definecolor{UGblue}{RGB}{30,100,200}
+\definecolor{UGyellow}{RGB}{255,210,0}
+\definecolor{BW}{RGB}{39,171,173}
+\setbeamercolor*{palette primary}{bg=UGblue!80, fg = white}
+\setbeamercolor*{palette secondary}{bg=UGblue!90, fg = white}
+\setbeamercolor*{palette tertiary}{bg=UGblue, fg = white}
+\setbeamercolor*{titlelike}{fg=UGblue}
+\setbeamercolor*{title}{bg=UGblue, fg = white}
+\setbeamercolor*{item}{fg=UGblue}
+\setbeamercolor*{caption name}{fg=UGblue}
+\usefonttheme{professionalfonts}
+
+\titlegraphic{\includegraphics[height=1.5cm]{icons/logo_UGent.png} \includegraphics[height=1.5cm]{icons/logo_imec.png}}
+
+\setbeamerfont{title}{size=\large}
+\setbeamerfont{subtitle}{size=\small}
+\setbeamerfont{author}{size=\small}
+\setbeamerfont{date}{size=\small}
+\setbeamerfont{institute}{size=\small}
+
+\title[RIS-Aided Multi. Presentation]{RIS-Aided Multiuser Wave Communications Network Planning for Connectivity Enhancement}
+%\subtitle{The Top Forwards in the World}
+\author[B. Yin]{Bo Yin}
+
+\institute[bo.yin@ugent.be]{Ph.D. candidate
+
+Department of Information Technology (INTEC)
+
+Ghent University (UGent)
+}
+\date[\today{}]
+{\today{}}
+
+%------------------------------------------------------------
+%This block of commands puts the table of contents at the
+%beginning of each section and highlights the current section:
+%\AtBeginSection[]
+%{
+%  \begin{frame}
+%    \frametitle{Contents}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+%------------------------------------------------------------
+
+\begin{document}
+
+%The next statement creates the title page.
+\frame{\titlepage}
+\begin{frame}
+\frametitle{Contents}
+\tableofcontents
+\end{frame}
+%------------------------------------------------------------
+\section{Introduction}
+    \begin{frame}{Introduction}
+    \end{frame}
+
+
+\section{Conclusion}
+    \begin{frame}{Conclusion}
+    \end{frame}
+
+
+
+\section*{Acknowledgement}
+\begin{frame}
+\textcolor{blue}{\Huge{\centerline{Thank you!}}}
+\end{frame}
+
+\end{document}
+
+
+
